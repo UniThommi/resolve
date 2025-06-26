@@ -169,8 +169,9 @@ class DataGeneration(object):
         batch_size,
         files_per_batch,
         use_data_augmentation = False,
+        context_ratio = 0,
     ):
-        self._context_ratio = config_file["cnp_settings"]["context_ratio"]
+        self._context_ratio = context_ratio
         self._batch_size = batch_size
         self.path_to_files = path_to_files
         self.dataloader="None"

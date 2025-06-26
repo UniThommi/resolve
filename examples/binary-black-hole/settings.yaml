@@ -47,12 +47,12 @@ feature_settings:
     - 0.0
     - 0.011196100153028965
     - 13.886194229125977
-    - 78.45658111572266
+    - 78.45657348632812
     - 47.66731262207031
-    - 0.10773195326328278
+    - 0.10773196071386337
     - 0.0
-    - 0.014155999757349491
-    - 0.014155999757349491
+    - 0.014156000688672066
+    - 0.014156000688672066
     - 0.0
     - 0.0
     - 4.759952068328857
@@ -62,7 +62,7 @@ feature_settings:
     - 30.0
     - 30.0
     - 1.0
-    - 0.5491750240325928
+    - 0.549174964427948
     - 56.039485931396484
     - 12.771081924438477
     - 12.355463027954102
@@ -178,18 +178,18 @@ pce_settings:
       sigma_y: 0.006
 path_settings:
   version: v1.3
-  path_to_files_train: ../in/data/lf/v1.3/iteration_0
-  path_to_files_testing: ../in/data/lf/v1.3/testing
+  path_to_files_train: /global/cfs/projectdirs/legend/users/tbuerger/neuralNet/binaryBH/resolve/examples/binary-black-hole/in/data/lf/v1.3/iteration_0
+  path_to_files_testing: /global/cfs/projectdirs/legend/users/tbuerger/neuralNet/binaryBH/resolve/examples/binary-black-hole/in/data/lf/v1.3/testing
   path_to_files_predict:
-  - ../in/data/lf/v1.3/iteration_0
-  - ../in/data/lf/v1.3/validation
+  - /global/cfs/projectdirs/legend/users/tbuerger/neuralNet/binaryBH/resolve/examples/binary-black-hole/in/data/lf/v1.3/iteration_0
+  - /global/cfs/projectdirs/legend/users/tbuerger/neuralNet/binaryBH/resolve/examples/binary-black-hole/in/data/lf/v1.3/validation
   iteration:
   - 0
   - 1
   fidelity:
   - 0
   - 0
-  path_to_files_validation: ../out/cnp/cnp_v1.3_output_validation.csv
-  path_out_cnp: ../out/cnp
-  path_out_mfgp: ../out/mfgp
-  path_out_pce: ../out/pce
+  path_to_files_validation: /global/cfs/projectdirs/legend/users/tbuerger/neuralNet/binaryBH/resolve/examples/binary-black-hole/out/cnp/cnp_v1.3_output_validation.csv
+  path_out_cnp: /global/cfs/projectdirs/legend/users/tbuerger/neuralNet/binaryBH/resolve/examples/binary-black-hole/out/cnp
+  path_out_mfgp: /global/cfs/projectdirs/legend/users/tbuerger/neuralNet/binaryBH/resolve/examples/binary-black-hole/out/mfgp
+  path_out_pce: /global/cfs/projectdirs/legend/users/tbuerger/neuralNet/binaryBH/resolve/examples/binary-black-hole/out/pce
